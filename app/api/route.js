@@ -6,7 +6,7 @@ export async function GET(req) {
   if (ua.toLowerCase().includes("roblox")) {
     const lua = `
 -- SoftProjects Loader
-loadstring(game:HttpGet("https://pastefy.app/XKjs38lQ/raw?part=SoftProject.lua", true))()
+loadstring(game:HttpGet("https://pastefy.app/tIdl8lGq/raw?part=9ae3e89e74cda6a5.lua", true))()
 `;
     return new Response(lua, {
       headers: { "content-type": "text/plain; charset=utf-8" },
